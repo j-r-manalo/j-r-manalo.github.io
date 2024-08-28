@@ -10,7 +10,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>New Site Title</title>
+<!-- begin _includes/seo.html --><title>Layout: Header Image Overlay with Custom Tagline - New Site Title</title>
 <meta name="description" content="An amazing website.">
 
 
@@ -21,13 +21,15 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="New Site Title">
-<meta property="og:title" content="New Site Title">
+<meta property="og:title" content="Layout: Header Image Overlay with Custom Tagline">
 <meta property="og:url" content="http://localhost:4000/">
 
 
   <meta property="og:description" content="An amazing website.">
 
 
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/unsplash-image-1.jpg">
 
 
 
@@ -92,7 +94,7 @@
 
   </head>
 
-  <body class="layout--home" dir="ltr">
+  <body class="layout--splash" dir="ltr">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -139,139 +141,64 @@
 
     <div class="initial-content">
       
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: url('/assets/images/unsplash-image-1.jpg');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Layout: Header Image Overlay with Custom Tagline
+
+        
+      </h1>
+      
+        <p class="page__lead">This is a custom tagline content which overrides the <em>default</em> page excerpt.
+</p>
+      
+      
+
+
+      
+    </div>
+  
+  
+    <span class="page__hero-caption">Photo credit: <a href="https://unsplash.com"><strong>Unsplash</strong></a>
+</span>
+  
+</div>
 
 
 
 <div id="main" role="main">
-  
-  <div class="sidebar sticky">
-  
-
-
-<div itemscope itemtype="https://schema.org/Person" class="h-card">
-
-  
-
-  <div class="author__content">
-    <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Your Name</a>
-    </h3>
-    
-      <div class="author__bio p-note" itemprop="description">
-        <p>I am an <strong>amazing</strong> person.</p>
-
-      </div>
-    
-  </div>
-
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
-      
-        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Somewhere</span>
-        </li>
-      
-
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      <!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
-    </ul>
-  </div>
-</div>
-
-  
-  </div>
-
-
-
-  <div class="archive">
-    
-      <h1 id="page-title" class="page__title"></h1>
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Layout: Header Image Overlay with Custom Tagline">
     
     
+    <meta itemprop="dateModified" content="2020-01-07T13:05:25-05:00">
 
-<h3 class="archive__subtitle">Recent posts</h3>
+    <section class="page__content" itemprop="text">
+      <p>This post should display a <strong>header with an overlay image</strong> and <strong>custom tagline</strong>, if the theme supports it.</p>
 
+<p>Non-square images can provide some unique styling issues.</p>
 
+<p>This post tests overlay header images with custom <code class="language-plaintext highlighter-rouge">page.tagline</code>.</p>
 
+<!-- ---
+layout: splash
+author_profile: true
+--- -->
 
-<div class="entries-list">
-  
-</div>
-
-
-
-
-  </div>
+    </section>
+  </article>
 </div>
 
       

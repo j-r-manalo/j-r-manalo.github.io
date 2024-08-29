@@ -1,24 +1,23 @@
 ---
 layout: splash
-title: "Data, by the Numbers: A Very Logical Portfolio"
-tagline: "A collection of projects, accomplishments, and random thoughts."
+title: "Jonathan Manalo"
+tagline: "Data Scientist. Data Analyst. Data Visualist."
 header:
-  overlay_image: /assets/images/unsplash-image-1.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  overlay_image: /assets/images/giulia-may-cNtMy74-mnI-unsplash.jpg
+  caption: "Photo credit: [Giulia May](https://unsplash.com/@giuliamay) on [Unsplash](https://unsplash.com)"
 gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: /assets/images/unsplash-gallery-image-1-th.jpg
+  - url: /assets/images/clarisse-croset-4tGG0xDqTlY-unsplash.jpg
+    image_path: /assets/images/clarisse-croset-4tGG0xDqTlY-unsplash.jpg
     # alt: "placeholder image 1"
-    title: "Quick Start Guide"
+    title: "Portfolio"
   - url: /about/
-    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    image_path: /assets/images/carmen-keuper-MLH7ox3cNTo-unsplash.jpg
     # alt: "placeholder image 2"
-    title: "About"
-    caption: "About"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+    title: "Resume"
+  - url: /about/
+    image_path: /assets/images/johannes-plenio-E-Zuyev2XWo-unsplash.jpg
     # alt: "placeholder image 3"
-    title: "Image 3 title caption"
+    title: "About"
 categories:
   - Layout
   - Uncategorized
@@ -29,10 +28,6 @@ tags:
 last_modified_at: 2024-08-28T13:05:25-05:00
 ---
 
-This post should display a **header with an overlay image** and **custom tagline**, if the theme supports it.
+Welcome.
 
-Non-square images can provide some unique styling issues.
-
-This post tests overlay header images with custom `page.tagline`.
-
-{% include gallery caption="Click on an image to navigate." %}
+{% include gallery caption="**Hover** and **Click** on an image to navigate." %}

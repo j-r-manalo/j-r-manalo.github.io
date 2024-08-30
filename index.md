@@ -10,7 +10,7 @@ gallery:
     image_path: /assets/images/clarisse-croset-4tGG0xDqTlY-unsplash.jpg
     # alt: "placeholder image 1"
     title: "Portfolio"
-  - url: /about/
+  - url: /resume/
     image_path: /assets/images/carmen-keuper-MLH7ox3cNTo-unsplash.jpg
     # alt: "placeholder image 2"
     title: "Resume"

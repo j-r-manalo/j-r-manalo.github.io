@@ -3,7 +3,7 @@ main:
   - title: "Portfolio"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Resume"
-    url: /about/
+    url: /resume/
   - title: "About"
     url: /about/
   # - title: "Sample Posts"

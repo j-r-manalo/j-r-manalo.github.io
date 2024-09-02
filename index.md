@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/images/giulia-may-cNtMy74-mnI-unsplash.jpg
   caption: "Photo credit: [Giulia May](https://unsplash.com/@giuliamay) on [Unsplash](https://unsplash.com)"
 gallery:
-  - url: /assets/images/clarisse-croset-4tGG0xDqTlY-unsplash.jpg
+  - url: /portfolio/
     image_path: /assets/images/clarisse-croset-4tGG0xDqTlY-unsplash.jpg
     # alt: "placeholder image 1"
     title: "Portfolio"

@@ -81,4 +81,4 @@ Due to confidentiality, conclusions and recommendations are omitted. However, fo
 As with all my presentations, I encourage questions throughout and save time for discussion at the end. I believe this fosters excellent collaboration and generates invaluable insights.
 
 [Previous Page](/portfolio/){: .btn .btn--inverse}
-[Next Page](/portfolio/timeseries/){: .btn .btn--inverse}
+<!-- [Next Page](/portfolio/timeseries/){: .btn .btn--inverse} -->

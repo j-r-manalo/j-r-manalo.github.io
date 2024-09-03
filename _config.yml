@@ -121,15 +121,15 @@ author:
   location         : "Millersville, MD"
   email            :
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jonathan-r-manalo/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:jonathan.r.manalo@gmail.com"
     - label: "Resume"
       icon: "fas fa-regular fa-file"
       url: "https://drive.google.com/file/d/1WsAeKGfln20kPJeWSos2l1yt7OfvGzwF/view?usp=drive_link"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -143,9 +143,15 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jonathan-r-manalo/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jonathan.r.manalo@gmail.com"
+    - label: "Resume"
+      icon: "fas fa-regular fa-file"
+      url: "https://drive.google.com/file/d/1WsAeKGfln20kPJeWSos2l1yt7OfvGzwF/view?usp=drive_link"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:

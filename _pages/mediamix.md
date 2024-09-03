@@ -13,14 +13,14 @@ last_modified_at: 2024-08-30T11:59:26-04:00
 author_profile: true
 layout: single
 intro: 
-  - excerpt: 'This is an example of my work with media mix modeling. As noted in the methodology, there was actually a lot of work that enabled this. Overall, this was a great success, which we were able to replicate for many of our clients.'
+  - excerpt: 'This is an example of my work with media mix modeling. The robust methodology behind this approach enabled us to achieve great success for multiple clients.'
 toc: true
 toc_label: "Table of Contents"
 toc_sticky: true
 ---
 {% include feature_row id="intro" type="center" %}
 # Background
-Our client was unable to determine how their advertising and marketing campaigns were impacting the sentiment regarding their organization and work. To solve this problem, we recommended capturing, tracking, and analyzing their social media conversations in relation to their advertising and marketing campaigns. 
+Our client was struggling to understand the public's perception of their brand, especially in regards to the impact of their advertising and marketing campaigns. We proposed a solution involving social media monitoring, media mix models, and analysis.
 
 # Questions
 For the analysis, we aimed to specifically answer the following questions:
@@ -42,25 +42,25 @@ To answer these questions, I performed each of the following tasks unless otherw
 - Created the deck (select slides shown below) with conclusions and recommendations.
 
 # Analysis
-For my presentations, I prefer on telling a story. To do so, first I approach what they have done before compared to what they have done currently.
+When presenting, I like to use storytelling. I begin by comparing past and current strategies.
 ![image-center](/assets/images/MMM1.jpg){: .align-center}
 
-I next provide an overall snapshot on what happened to their KPI of interest, in this case, negative conversation.
+I then summarize the changes in their KPI of interest, in this case, negative conversation. (Note, we want to suppress negative conversation, so lower is better.)
 ![image-center](/assets/images/MMM2.jpg){: .align-center}
 
-I then dive into detail how that negative conversation rolled out over time, and what key events triggered some spikes and large differences.
+Next, I dive into the specifics of the negative conversation trends, identifying key events that triggered significant fluctuations.
 ![image-center](/assets/images/MMM3.jpg){: .align-center}
 
 Lastly, I provide how each media channel contributed to this overall impact.
 ![image-center](/assets/images/MMM4.jpg){: .align-center}
 
 # Results
-For the results, I focus on any significant findings, both on the questions we were aiming to answer, and if any other surprises revealed itself. (In this case, no surprises were encountered.)
+For the results, I focus on significant discoveries, including those that were anticipated and any unexpected surprises.
 
-As before, I like to start with an overall snapshot.
+As before, I summarize and compare the past to the present.
 ![image-center](/assets/images/MMM5.jpg){: .align-center}
 
-I next provide how each media channel performed in supressing the negative conversation.
+Next, I provide how each media channel performed in supressing the negative conversation.
 ![image-center](/assets/images/MMM6.jpg){: .align-center}
 
 Afterwards, I share the efficiency of media channel in terms of spend... 
@@ -69,13 +69,16 @@ Afterwards, I share the efficiency of media channel in terms of spend...
 ...and per impression.
 ![image-center](/assets/images/MMM8.jpg){: .align-center}
 
-Next, I like to dive into detailed trends to provide better clarity on how their media channels are performing in 'real-time'.
+To provide a clearer picture, I dive into specific trends and assess how each channel is performing in real time.
 ![image-center](/assets/images/MMM9.jpg){: .align-center}
 
-Finally, for the reader that likes more of the statistical information, I always provde the factors that were included in the model, their impact, and the overall confidence (or p-value). However, notice, this information is still at a level that was appropriate for most of the audience, which was non-technical.
+For those interested in statistical details, I include factors, their impact, and confidence levels. However, the information remains accessible to a non-technical audience.
 ![image-center](/assets/images/MMM10.jpg){: .align-center}
 
 # Conclusions
-For confidentiality reasons, conclusions and recommendations are not shared here. However, for the sake of clarity, I created several slides, where each slide answered one of the main 5 questions, and provided detailed recommendations for next steps. 
+Due to confidentiality, conclusions and recommendations are omitted. However, for all our clients, I have created slides to answer the main questions and provided detailed next steps.
 
-And as with all my presenations and decks, these are shared in a conversational approach. That is, questions are encouraged throughout and time saved at the end. I find this approach results in excellent collaboration and great ideas for next steps.
+As with all my presentations, I encourage questions throughout and save time for discussion at the end. I believe this fosters excellent collaboration and generates invaluable insights.
+
+[Previous Page](/portfolio/){: .btn .btn--inverse}
+[Next Page](/portfolio/timeseries/){: .btn .btn--inverse}

@@ -24,24 +24,24 @@ The deep neural net time series model used the Keras package, which is a wrapper
 
 The process in building the model follows your usual machine learning process.
 
-First, I ingested the data using a SQLAlchemy connection to our database.
+First, I [ingested the data](https://github.com/j-r-manalo/j-r-manalo.github.io/blob/9ad54280383660c7e05529c2903de7e0645bc5cc/assets/timeseries/0%20-%20ingest_data.py) using a SQLAlchemy connection to our database.
 
-Next, I cleaned the data:
+Next, I [cleaned the data](https://github.com/j-r-manalo/j-r-manalo.github.io/blob/9ad54280383660c7e05529c2903de7e0645bc5cc/assets/timeseries/1%20-%20clean_data.py):
 - Removed special characters from text fields.
 - Ensured correct input for categorical variables.
 
-Then, as this was a time series, I created additional variables:
+Then, as this was a time series, I [created additional variables](https://github.com/j-r-manalo/j-r-manalo.github.io/blob/9ad54280383660c7e05529c2903de7e0645bc5cc/assets/timeseries/3%20-%20create_vars.py):
 - Holidays
 - Weekends
 
 Afterward, I preprocessed the data:
-- Created embeddings for categorical data.
-- Restructured categorical data.
-- Restructured continuous data.
+- [Created embeddings](https://github.com/j-r-manalo/j-r-manalo.github.io/blob/9ad54280383660c7e05529c2903de7e0645bc5cc/assets/timeseries/2%20-%20preproc.py) for categorical data.
+- [Restructured categorical](https://github.com/j-r-manalo/j-r-manalo.github.io/blob/9ad54280383660c7e05529c2903de7e0645bc5cc/assets/timeseries/4%20-%20restruc_cat.py) data.
+- [Restructured continuous](https://github.com/j-r-manalo/j-r-manalo.github.io/blob/9ad54280383660c7e05529c2903de7e0645bc5cc/assets/timeseries/5%20-%20restruc_cnt.py) data.
 
-Now that the data was ready for modeling, I split the sample into test and train.
+Now that the data was ready for modeling, I [split the data](https://github.com/j-r-manalo/j-r-manalo.github.io/blob/9ad54280383660c7e05529c2903de7e0645bc5cc/assets/timeseries/6%20-%20split_sample.py) into test and train.
 
-When creating the time series model, I ran a grid search over several factors:
+When [creating the time series model](https://github.com/j-r-manalo/j-r-manalo.github.io/blob/9ad54280383660c7e05529c2903de7e0645bc5cc/assets/timeseries/7%20-%20create_model.py), I ran a [grid search](https://github.com/j-r-manalo/j-r-manalo.github.io/blob/9ad54280383660c7e05529c2903de7e0645bc5cc/assets/timeseries/8%20-%20grid_search.py) over several factors:
 - Number of nodes
 - Number of levels
 - Dropout rate
@@ -75,7 +75,7 @@ model_all.fit([df_cat[0], df_cat[1], df_cat[2],
   shuffle=False)
 ```
 
-Once the best model was found, I created forecasts using the best parameters from the grid search.
+Once the best model was found, I [created forecasts](https://github.com/j-r-manalo/j-r-manalo.github.io/blob/9ad54280383660c7e05529c2903de7e0645bc5cc/assets/timeseries/9%20-%20forecasts.py) using the best parameters from the grid search.
 
 For the finished product, I also created a simple function for the confidence bands:
 - To illustrate that as the forecasts move out in time, we become less confident in those forecasts.
@@ -97,12 +97,12 @@ for i in range(0, len(y_forecast_rescale)):
 ```
 
 # Results and Analysis
-To assess the model's accuracy, I compared its predictions to the actual value (#test link).
+To [assess the model's accuracy](https://github.com/j-r-manalo/j-r-manalo.github.io/blob/9ad54280383660c7e05529c2903de7e0645bc5cc/assets/timeseries/10%20-%20hist_predict.py), I compared its predictions to the actual value.
 
 As you can see, the time series model using LSTM Recurrent Neural Networks did well.
 ![image-center](/assets/images/forecast_results.jpg){: .align-center}
 
-As an added value, I provided the relative importance of the input variables to guide our clients' [decision-making](#link). This was accomplished using [Shapley values](https://christophm.github.io/interpretable-ml-book/shapley.html).
+As an added value, I provided the [relative importance](https://github.com/j-r-manalo/j-r-manalo.github.io/blob/9ad54280383660c7e05529c2903de7e0645bc5cc/assets/timeseries/11%20-%20rel_imp.py) of the input variables to guide our clients' decision-making. This was accomplished using [Shapley values](https://christophm.github.io/interpretable-ml-book/shapley.html).
 
 [^1]: The model was built from scratch and leveraged the work by [Jason Brownlee](https://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/). 
 

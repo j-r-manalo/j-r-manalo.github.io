@@ -13,15 +13,15 @@ feature_row:
   - image_path: /assets/images/amber-flowers-hahyMPtfgZ4-unsplash.jpg
     # alt: "placeholder image 2"
     title: "Measuring Media Effectiveness with Media Mix Modeling"
-    excerpt: 'This is an example of my work with media mix modeling. The robust methodology behind this approach enabled us to achieve great success for multiple clients.'
+    excerpt: 'An example of my work with media mix modeling. The robust methodology behind this approach enabled us to achieve great success for multiple clients.'
     url: "/portfolio/mediamix/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
+  - image_path: /assets/images/agathe-0Izsy1Uy308-unsplash.jpg
+    # alt: "placeholder image 2"
+    title: "A Deep Neural Net Time Series Model"
+    excerpt: 'A sample of the production code for a deep neural net time series model. In general, it achieved over 95% accuracy in predicting ad revenue.'
     url: "/portfolio/timeseries/"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -38,6 +38,6 @@ feature_row3:
 ---
 {% include feature_row  type="left" %}
 
-<!-- {% include feature_row id="feature_row2" type="right" %} -->
+{% include feature_row id="feature_row2" type="right" %}
 
 <!-- {% include feature_row id="feature_row3" type="left" %} -->

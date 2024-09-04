@@ -1,19 +1,15 @@
 ---
 permalink: /portfolio/mediamix/
 title: "Measuring Media Effectiveness with Media Mix Modeling"
-# excerpt: "My Resume."
+# excerpt: ""
 header:
   overlay_image: /assets/images/amber-flowers-hahyMPtfgZ4-unsplash.jpg
   caption: "Photo credit: [Amber Flowers](https://unsplash.com/@soulgazephotography) on [Unsplash](https://unsplash.com)"
-  # actions:
-  #   - label: "download"
-  #     url: "https://drive.google.com/file/d/1WsAeKGfln20kPJeWSos2l1yt7OfvGzwF/view?usp=drive_link"
-  #     class: "download-button"
 last_modified_at: 2024-08-30T11:59:26-04:00
 author_profile: true
 layout: single
 intro: 
-  - excerpt: 'This is an example of my work with media mix modeling. The robust methodology behind this approach enabled us to achieve great success for multiple clients.'
+  - excerpt: 'An example of my work with media mix modeling. The robust methodology behind this approach enabled us to achieve great success for multiple clients.'
 toc: true
 toc_label: "Table of Contents"
 toc_sticky: true
@@ -41,7 +37,7 @@ To answer these questions, I performed each of the following tasks unless otherw
 - Crafted the story.
 - Created the deck (select slides shown below) with conclusions and recommendations.
 
-# Analysis
+# Results
 When presenting, I like to use storytelling. I begin by comparing past and current strategies.
 ![image-center](/assets/images/MMM1.jpg){: .align-center}
 
@@ -54,7 +50,7 @@ Next, I dive into the specifics of the negative conversation trends, identifying
 Lastly, I provide how each media channel contributed to this overall impact.
 ![image-center](/assets/images/MMM4.jpg){: .align-center}
 
-# Results
+# Analysis
 For the results, I focus on significant discoveries, including those that were anticipated and any unexpected surprises.
 
 As before, I summarize and compare the past to the present.
@@ -80,5 +76,5 @@ Due to confidentiality, conclusions and recommendations are omitted. However, fo
 
 As with all my presentations, I encourage questions throughout and save time for discussion at the end. I believe this fosters excellent collaboration and generates invaluable insights.
 
-[Previous Page](/portfolio/){: .btn .btn--inverse}
-<!-- [Next Page](/portfolio/timeseries/){: .btn .btn--inverse} -->
+[Previous](/portfolio/){: .btn .btn--inverse}
+[Next](/portfolio/timeseries/){: .btn .btn--inverse}

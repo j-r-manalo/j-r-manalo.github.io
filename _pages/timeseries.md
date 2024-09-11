@@ -30,7 +30,7 @@ Next, I [cleaned the data](https://github.com/j-r-manalo/j-r-manalo.github.io/bl
 - Removed special characters from text fields.
 - Ensured correct input for categorical variables.
 
-Then, as this was a time series, I [created additional variables](https://github.com/j-r-manalo/j-r-manalo.github.io/blob/9ad54280383660c7e05529c2903de7e0645bc5cc/assets/timeseries/3%20-%20create_vars.py):
+Then, as this was a time series, I [feature engineered additional time-based variables](https://github.com/j-r-manalo/j-r-manalo.github.io/blob/9ad54280383660c7e05529c2903de7e0645bc5cc/assets/timeseries/3%20-%20create_vars.py). This included categorical variables for:
 - Holidays
 - Weekends
 
@@ -78,7 +78,7 @@ model_all.fit([df_cat[0], df_cat[1], df_cat[2],
 Once the best model was found, I [created forecasts](https://github.com/j-r-manalo/j-r-manalo.github.io/blob/9ad54280383660c7e05529c2903de7e0645bc5cc/assets/timeseries/9%20-%20forecasts.py) using the best parameters from the grid search.
 
 For the finished product, I also created a simple function for the confidence bands:
-- To illustrate that as the forecasts move out in time, we become less confident in those forecasts.
+- To illustrate that as the forecasts move out in time, we become less confident in those forecasts, I created confidence bands around the forecast.
 - See below.
 ```python
 y_forecast = model.predict([df_cat_est_X_lst[0], df_cat_est_X_lst[1], df_cat_est_X_lst[2],
@@ -108,4 +108,4 @@ As an added value, I provided the [relative importance](https://github.com/j-r-m
 
 
 [Previous](/portfolio/mediamix/){: .btn .btn--inverse}
-<!-- [Next](#link){: .btn .btn--inverse} -->
+[Next](/portfolio/datawarehouse/){: .btn .btn--inverse}

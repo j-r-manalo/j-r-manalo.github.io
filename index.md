@@ -19,7 +19,7 @@ feature_row:
     excerpt: "Highlights of my career."
     btn_class: "btn--primary"
   - url: /about/
-    image_path: /assets/images/johannes-plenio-E-Zuyev2XWo-unsplash.jpg
+    image_path: /assets/images/chris-lawton-3Ik7xWYJv3U-unsplash.jpg
     # alt: "placeholder image 3"
     title: "About"
     excerpt: "Behind the scenes."

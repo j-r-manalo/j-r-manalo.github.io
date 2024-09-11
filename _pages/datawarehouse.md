@@ -4,7 +4,7 @@ title: "A Real Time Streaming Data Warehouse with Reporting"
 # excerpt: ""
 header:
   overlay_image: /assets/images/lukasz-rawa-IVJiTrJfNjA-unsplash.jpg  
-  caption: "Photo credit: [Lukasz Rawa](https://unsplash.com/@agathe_26) on [Unsplash](https://unsplash.com)"
+  caption: "Photo credit: [Lukasz Rawa](https://unsplash.com/@lukasz_rawa) on [Unsplash](https://unsplash.com)"
 last_modified_at: 2024-09-05T11:59:26-04:00
 author_profile: true
 layout: single

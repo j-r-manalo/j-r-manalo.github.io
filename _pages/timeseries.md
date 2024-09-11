@@ -104,6 +104,9 @@ As you can see, the time series model using LSTM Recurrent Neural Networks did w
 
 As an added value, I provided the [relative importance](https://github.com/j-r-manalo/j-r-manalo.github.io/blob/9ad54280383660c7e05529c2903de7e0645bc5cc/assets/timeseries/11%20-%20rel_imp.py) of the input variables to guide our clients' decision-making. This was accomplished using [Shapley values](https://christophm.github.io/interpretable-ml-book/shapley.html).
 
+# Conclusion
+This project successfully developed a deep neural network time series model using LSTMs to forecast revenue trends for our clients. By leveraging Keras and a well-defined machine learning workflow, the model effectively captured the sequential nature of the data and learned from long-term dependencies. The implemented grid search ensured optimal hyperparameter selection, leading to accurate forecasts with confidence bands. Additionally, analyzing relative feature importance via Shapley values provided valuable insights for client decision-making across media channels.
+
 [^1]: The model was built from scratch and leveraged the work by [Jason Brownlee](https://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/). 
 
 

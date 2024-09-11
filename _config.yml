@@ -116,7 +116,7 @@ analytics:
 # Site Author
 author:
   name             : "Jonathan Manalo"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/headshot2_bw.jpg"
   bio              : "Data Scientist. Data Analyst. Data Visualist."
   location         : "Millersville, MD"
   email            :

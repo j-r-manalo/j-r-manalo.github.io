@@ -35,7 +35,7 @@ Hands-on data leader with 20+ years of experience driving significant revenue gr
 
 # PROFESSIONAL EXPERIENCE
 ---
-**Director of Data Engineering**, EcoMap Technologies, Bentonville, AR (10/24 – 12/24)
+**Director of Data Engineering**, EcoMap Technologies, Baltimore, MD (10/24 – 12/24)
 - Led LLM infrastructure development and prompt engineering, achieving a >400% accuracy improvement.
 - Audited and optimized data engineering infrastructure, resulting in a >50% cost reduction.
 - Collaborated with engineering, product, sales, and client engagement leadership to integrate AI enhancements into business strategies.

@@ -117,7 +117,7 @@ analytics:
 author:
   name             : "Jonathan Manalo"
   avatar           : "/assets/images/headshot2_bw.jpg"
-  bio              : "Data Scientist. Data Analyst. Data Visualist."
+  bio              : "Data Scientist. Data Engineer. Data Analyst."
   location         : "Millersville, MD"
   email            :
   links:
@@ -151,7 +151,7 @@ footer:
       url: "mailto:jonathan.r.manalo@gmail.com"
     - label: "Resume"
       icon: "fas fa-regular fa-file"
-      url: "https://drive.google.com/file/d/1WsAeKGfln20kPJeWSos2l1yt7OfvGzwF/view?usp=drive_link"
+      url: "https://drive.google.com/file/d/1WsAeKGfln20kPJeWSos2l1yt7OfvGzwF/view?usp=sharing"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:

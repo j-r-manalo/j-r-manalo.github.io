@@ -29,8 +29,16 @@ feature_row3:
   - image_path: /assets/images/lukasz-rawa-IVJiTrJfNjA-unsplash.jpg
     # alt: "placeholder image 2"
     title: "A Real Time Streaming Data Warehouse with Reporting"
-    excerpt: 'A journey through the challenges and triumphs when building a real-time streaming data warehouse'
+    excerpt: 'A journey through the challenges and triumphs when building a real-time streaming data warehouse.'
     url: "/portfolio/datawarehouse/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_row4:
+  - image_path: /assets/images/david-clode-CKCpKebng_I-unsplash.jpg
+    # alt: "placeholder image 2"
+    title: "Boosting Web Scraping Accuracy with LLM-Powered Pipelines"
+    excerpt: 'A showcase of how optimizing infrastructure and implementing strategic prompt engineering significantly improved a web scraping pipeline that leveraged LLMs.'
+    url: "/portfolio/llm/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
@@ -41,3 +49,5 @@ feature_row3:
 {% include feature_row id="feature_row2" type="right" %}
 
 {% include feature_row id="feature_row3" type="left" %}
+
+{% include feature_row id="feature_row4" type="right" %}

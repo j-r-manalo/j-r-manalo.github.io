@@ -189,3 +189,4 @@ The optimizations we implemented yielded substantial benefits, with a 90% perfor
 Despite facing challenges such as data fragmentation, scalability bottlenecks, and costly performance issues, our team successfully implemented a robust data warehouse solution. Through collaboration and strategic decision-making, we overcame these obstacles and delivered a valuable asset to the organization.
 
 [Previous](/portfolio/timeseries/){: .btn .btn--inverse}
+[Next](/portfolio/llm/){: .btn .btn--inverse}

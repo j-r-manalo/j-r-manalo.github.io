@@ -17,7 +17,7 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row2:
-  - image_path: /assets/images/lukasz-rawa-IVJiTrJfNjA-unsplash.jpg
+  - image_path: /assets/images/xuan-nguyen-U2-4RAefiFw-unsplash.jpg
     title: "Efficiency-Driven Data Warehouse for BI"
     excerpt: 'A fully automated data warehouse for business intelligence.'
     url: "/portfolio/bi_datawarehouse/"

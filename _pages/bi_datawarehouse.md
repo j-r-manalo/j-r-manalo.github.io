@@ -3,8 +3,8 @@ permalink: /portfolio/bi_datawarehouse/
 title: "Efficiency-Driven Data Warehouse for BI"
 # excerpt: ""
 header:
-  overlay_image: /assets/images/lukasz-rawa-IVJiTrJfNjA-unsplash.jpg  
-  caption: "Photo credit: [Lukasz Rawa](https://unsplash.com/@lukasz_rawa) on [Unsplash](https://unsplash.com)"
+  overlay_image: /assets/images/xuan-nguyen-U2-4RAefiFw-unsplash.jpg  
+  caption: "Photo credit: [Xuan Nguyen](https://unsplash.com/@darth.xuan) on [Unsplash](https://unsplash.com)"
 last_modified_at: 2025-03-11T11:59:26-04:00
 author_profile: true
 layout: single

@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Jonathan Manalo"
-tagline: "Data Scientist. Data Engineer. Data Analyst."
+tagline: "Data Engineer. Data Scientist. Data Analyst."
 header:
   overlay_image: /assets/images/giulia-may-cNtMy74-mnI-unsplash.jpg
   caption: "Photo credit: [Giulia May](https://unsplash.com/@giuliamay) on [Unsplash](https://unsplash.com)"
@@ -24,7 +24,7 @@ feature_row:
     title: "About"
     excerpt: "Behind the scenes."
     btn_class: "btn--primary"
-last_modified_at: 2024-12-19T13:05:25-05:00
+last_modified_at: 2025-03-11T13:05:25-05:00
 ---
 
 Welcome.

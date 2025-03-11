@@ -110,5 +110,5 @@ This project successfully developed a deep neural network time series model usin
 [^1]: The model was built from scratch and leveraged the work by [Jason Brownlee](https://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/). 
 
 
-[Previous](/portfolio/mediamix/){: .btn .btn--inverse}
-[Next](/portfolio/datawarehouse/){: .btn .btn--inverse}
+[Previous](/portfolio/datawarehouse/){: .btn .btn--inverse}
+[Next](/portfolio/mediamix/){: .btn .btn--inverse}

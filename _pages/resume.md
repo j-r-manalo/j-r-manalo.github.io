@@ -15,26 +15,31 @@ layout: single
 ---
 # CAREER SUMMARY
 ---
-Hands-on data leader with 20+ years of experience driving significant revenue growth and efficiency gains through strategic application of advanced analytics, ML/AI, and scalable data pipelines. Proven ability to influence change through cross-functional collaboration, deliver tangible results, and present complex insights to diverse audiences. Expertise in cloud platforms, data processing tools, and advanced analytics frameworks, driving data-informed business decisions.
+Hands-on data leader with 20+ years of experience driving significant revenue growth and efficiency gains through strategic application of advanced analytics, LLM/AI/ML, and scalable data pipelines. Proven ability to influence change through cross-functional collaboration, deliver tangible results, and present complex insights to diverse audiences. Expertise in cloud platforms, data processing tools, and advanced analytics frameworks, driving data-informed business decisions.
 
 # KEY SKILLS
 ---
-- **ML/AI**: LLM, Prompt Engineering, Predictive Modeling, Time Series Analysis, NLP, Optimization Algorithms (e.g., Developed time series models achieving over 95% accuracy in forecasting).
-- **Data Engineering & Infrastructure**: Scalable Data Pipelines, Distributed Data Processing (Spark, Kafka), Cloud Platforms (AWS, GCP), Data Warehousing, ETL/ELT, Data Governance (GDPR, CCPA).
+- **Data Engineering & Infrastructure**: Scalable Data Pipelines, Distributed Data Processing (Spark, Kafka), Cloud Platforms (AWS, GCP), Data Warehousing, ETL/ELT, Data Governance (HIPAA, GDPR, CCPA).
+- **AI/ML**: LLM, Prompt Engineering, Predictive Modeling, Time Series Analysis, NLP, Optimization Algorithms (e.g., Led LLM infrastructure development and prompt engineering, achieving >400% accuracy improvement).
 - **Business Intelligence & Analytics**: KPI Development, Data Mining, A/B Testing, Segmentation, Data Visualization (e.g., Developed a new pricing metric that generated nearly $1M in additional revenue).
 
 
 # TECH TOOLKIT
 ---
-- **Cloud Platforms**: AWS (S3, EC2, Redshift, SageMaker, Lambda), GCP (BigQuery, Vertex AI, Cloud Build).
+- **Cloud Platforms**: AWS (S3, EC2, RDS, DynamoDB, Redshift, SageMaker, Lambda, Step Functions, VPC), GCP (BigQuery, Vertex AI, Cloud Build).
 - **Databases**: Databricks Delta Lake, Snowflake, PostgreSQL, MySQL, Teradata, MariaDB.
-- **ML Frameworks**: Hugging Face Transformers, TensorFlow, PyTorch, Scikit-learn.
+- **LLM/ML Frameworks**: OpenAI, Anthropic, Hugging Face Transformers, TensorFlow, PyTorch, Scikit-learn.
 - **Programming Languages**: Python, SQL, R, SAS, SPSS.
-- **Data Engineering/DevOps**: OpenAI, Kafka, Airflow, Docker, Git.
-- **Data Visualization**: Tableau, Looker.
+- **Data Engineering/DevOps**: Terraform, Kafka, Airflow, Docker, Git, GitHub Actions.
+- **Data Visualization**: Tableau, Looker, Plotly.
 
 # PROFESSIONAL EXPERIENCE
 ---
+**Data Engineering Contractor**, Precedent, Charlotte, NC (1/25 – 3/25)
+- Engineered automated invoicing pipelines (internal/external), achieving a >150% reduction in resource utilization for weekly processing.
+- Architected and built a data warehouse, leveraging medallion architecture, to establish a foundational platform for BI and analytical reporting.
+- Leveraged LLMs for enhanced web scraping and for generating a custom lead scoring solution, driving a >200% improvement in lead qualification efficiency.
+
 **Director of Data Engineering**, EcoMap Technologies, Baltimore, MD (10/24 – 12/24)
 - Led LLM infrastructure development and prompt engineering, achieving a >400% accuracy improvement.
 - Audited and optimized data engineering infrastructure, resulting in a >50% cost reduction.
@@ -63,17 +68,14 @@ Hands-on data leader with 20+ years of experience driving significant revenue gr
 
 **Vice President of Analytics**, Powell Tate/Weber Shandwick, Washington, DC (9/16 – 11/19)
 - Built and scaled a high-performing data team from inception to 10+ members.
-- Led data scientists and ML engineers in building data warehouses, pipelines, and AI models, generating $3M in sales leads within 3 months.
+- Led team in building data infrastructure (warehouses, pipelines, AI models) generating $3M sales leads within 3 months.
 - Delivered a data warehouse solution that reduced client time and resources by 800% weekly.
-- Developed custom media mix models and leveraged text classification and NLP for sentiment analysis to inform strategic client decisions.
-- Architected cloud-based dashboards for real-time KPI monitoring.
-- Developed custom solutions for clients across healthcare, retail, and automotive industries.
+- Developed media mix models and NLP-powered sentiment analysis to inform strategic client decisions.
 
 **Manager of Analytics**, National Geographic Partners, Washington, DC (4/13 – 9/16)
 - Developed and implemented ML models, increasing digital and direct mail campaign lift by >30%.
 - Implemented an automated MLOps system, streamlining workflows by >50%.
-- Implemented customer lifecycle segmentation and a frequency/monetary-based segmentation for planned giving.
-- Improved the company's donor acquisition model, exceeding competitor lift by 22%, with a subsequent 73% increase.
+- Improved donor acquisition model, exceeding competitor lift by 22% and driving a 73% overall increase .
 
 **Manager of Analytics**, Merkle, Inc., Columbia, MD (3/10 – 4/13)
 - Developed and implemented CRM analytical strategies for non-profit and health-focused organizations,  including - United Way, Feeding America, and the American Heart Association.

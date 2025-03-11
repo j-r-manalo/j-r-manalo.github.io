@@ -1,5 +1,5 @@
 ---
-permalink: /portfolio/bidatawarehouse/
+permalink: /portfolio/bi_datawarehouse/
 title: "Efficiency-Driven Data Warehouse for BI"
 # excerpt: ""
 header:
@@ -130,5 +130,5 @@ resource "aws_db_instance" "itc_postgres_instance" {
 # Explore the Full Code on GitHub
 For a comprehensive look at the project's implementation details, including all automation scripts, data pipeline code, infrastructure-as-code configurations, and more, please visit GitHub for the full code [repository](https://github.com/j-r-manalo/bi_datawarehouse.git).
 
-[Previous](/portfolio/timeseries/){: .btn .btn--inverse}
-[Next](/portfolio/llm/){: .btn .btn--inverse}
+[Previous](/portfolio/llm/){: .btn .btn--inverse}
+[Next](/portfolio/datawarehouse/){: .btn .btn--inverse}

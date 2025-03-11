@@ -123,5 +123,5 @@ this initiative was recognized company-wide, and the improved web-scraping and L
 analytics 
 platform.
 
-
-[Previous](/portfolio/datawarehouse/){: .btn .btn--inverse}
+[Previous](/portfolio/){: .btn .btn--inverse}
+[Next](/portfolio/bi_datawarehouse/){: .btn .btn--inverse}
